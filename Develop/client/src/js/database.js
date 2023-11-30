@@ -28,9 +28,9 @@ const result = await request;
 console.log('ok - data saved to the database', result);
 };
 
-export const getDb = async () => console.error('getDb not implemented'); {
+export const getDb = async () => {
   console.log('GET from the database');
-  
+
   const contactDb = await openDB('jate', 1);
 
   const tx = contactDb.transaction('jate', 'readonly');
@@ -43,5 +43,6 @@ export const getDb = async () => console.error('getDb not implemented'); {
   console.log('result.value', result);
   return result?.value;
 };
+
 
 initdb();
