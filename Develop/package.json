@@ -11,7 +11,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "Christian Sanchez",
+  "author": "Christian E. Sanchez",
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
