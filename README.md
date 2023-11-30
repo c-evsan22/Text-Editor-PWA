@@ -1,7 +1,7 @@
 # Text Editor Starter Code
 ## Table of Contents
 
-3. [Usage](#usage)
+|) [Usage](#usage)
 
 
 
